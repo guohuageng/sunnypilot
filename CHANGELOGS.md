@@ -1,3 +1,8 @@
+sunnypilot - 0.9.8.0 (2024-10-11)
+========================
+* Always on driver monitoring toggle
+************************
+* UPDATED: 国内的21款飞度车型支持
 sunnypilot - 0.9.8.0 (2024-xx-xx)
 ========================
 * Always on driver monitoring toggle
