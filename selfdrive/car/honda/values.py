@@ -176,7 +176,7 @@ class CAR(Platforms):
     flags=HondaFlags.BOSCH_RADARLESS,
   )
   HONDA_NEW_FIT = HondaBoschPlatformConfig(
-    [HondaCarDocs("Honda FIT 2021-23", "All")],
+    [HondaCarDocs("Honda Fit 2021-23", "All")],
     CarSpecs(mass=3125 * CV.LB_TO_KG, wheelbase=2.61, steerRatio=15.2, centerToFrontRatio=0.41, tireStiffnessFactor=0.5),
     dbc_dict('honda_civic_ex_2022_can_generated', None),
     flags=HondaFlags.BOSCH_RADARLESS,
