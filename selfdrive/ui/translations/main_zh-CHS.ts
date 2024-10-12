@@ -2237,7 +2237,6 @@ This may take up to a minute.</source>
         <source>Chime: The speed on the speed limit sign turns red and chimes to alert the driver when the cruising speed is faster than the speed limit plus the offset.</source>
         <translation>提示音：当巡航速度快于速度限制加偏移时，速度限制标志上的速度会变红并发出提示音以警告驾驶员。</translation>
     </message>
-    </message>
 </context>
 <context>
     <name>SpeedLimitWarningValueOffset</name>
@@ -2884,7 +2883,6 @@ This may take up to a minute.</source>
         <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature. Changing this setting takes effect when the car is powered off.</source>
         <translation>使用sunnypilot系统进行自适应巡航控制和车道保持驾驶员辅助。使用此功能时，您的注意力始终是必需的。更改此设置将在车辆熄火时生效。</translation>
     </message>
-    </message>
     <message>
         <source>openpilot Longitudinal Control (Alpha)</source>
         <translation type="unfinished">openpilot纵向控制（Alpha 版）</translation>
@@ -2906,7 +2904,6 @@ This may take up to a minute.</source>
 This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
         <translation>启用后，sunnypilot将尝试使用ACC按钮按下来控制股票纵向控制。
 此功能必须与SLC、和/或V-TSC、和/或M-TSC一起使用。</translation>
-    </message>
     </message>
     <message>
         <source>Experimental Mode</source>
@@ -3040,7 +3037,6 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
         <source>Normal is recommended. In sport mode, sunnypilot will provide aggressive acceleration for a dynamic driving experience. In eco mode, sunnypilot will apply smoother and more relaxed acceleration. On supported cars, you can cycle through these acceleration personality within Onroad Settings on the driving screen.</source>
         <translation>推荐使用正常模式。在运动模式下，sunnypilot将提供积极的加速，以提供动态的驾驶体验。在节能模式下，sunnypilot将应用更平滑、更舒适的加速。在支持的车辆上，您可以在驾驶屏幕上的行驶设置中切换这些加速风格。</translation>
     </message>
-    </message>
     <message>
         <source>openpilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
         <translation type="unfinished">openpilot 默认 &lt;b&gt;轻松模式&lt;/b&gt;驾驶车辆。试验模式启用一些轻松模式之外的 &lt;b&gt;试验性功能&lt;/b&gt;。试验性功能包括：</translation>
@@ -3096,7 +3092,6 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
         <source>Offline Only</source>
         <translation>仅离线</translation>
     </message>
-    </message>
 </context>
 <context>
     <name>TorqueMaxLatAccel</name>
@@ -3115,7 +3110,6 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     <message>
         <source>Offline Only</source>
         <translation>仅离线</translation>
-    </message>
     </message>
 </context>
 <context>
@@ -3257,7 +3251,6 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     <message>
         <source>5 Metrics</source>
         <translation>5个指标</translation>
-    </message>
     </message>
     <message>
         <source>10 Metrics</source>
