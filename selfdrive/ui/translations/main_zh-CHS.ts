@@ -2104,7 +2104,6 @@ This may take up to a minute.</source>
         <source>Warning: You are on a metered connection!</source>
         <translation>警告：您正在使用计量连接！</translation>
     </message>
-    </message>
     <message>
         <source>Continue</source>
         <translation type="unfinished">继续</translation>
