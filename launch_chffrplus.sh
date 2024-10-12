@@ -81,11 +81,11 @@ function launch {
   # write tmux scrollback to a file
   tmux capture-pane -pq -S-1000 > /tmp/launch_log
 
-  # start manager
-  # cd system/manager
-  # if [ ! -f $DIR/prebuilt ]; then
-  #   ./build.py
-  # fi
+  start manager
+  cd system/manager
+  if [ ! -f $DIR/prebuilt ]; then
+    ./build.py
+  fi
 
   ./mapd_installer.py; ./manager.py
 
