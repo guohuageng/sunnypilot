@@ -1450,140 +1450,140 @@ This may take up to a minute.</source>
 <context>
     <name>SPVehiclesTogglesPanel</name>
     <message>
-        <source>现代/起亚/捷尼斯</source>
+        <source>Hyundai/Kia/Genesis</source>
         <translation>现代/起亚/捷尼斯</translation>
     </message>
     <message>
-        <source>HKG CAN: 平滑停止性能（测试版）</source>
-        <translation>HKG CAN: 平滑停止性能（测试版）</translation>
+        <source>HKG CAN: Smoother Stopping Performance (Beta)</source>
+        <translation>HKG CAN：平滑停止性能（测试版）</translation>
     </message>
     <message>
-        <source>在HKG CAN平台上使用openpilot纵向控制时，停止在停车的车辆或期望的停止事件后，停止性能会更平滑。这只适用于HKG CAN平台。</source>
-        <translation>在HKG CAN平台上使用openpilot纵向控制时，停止在停车的车辆或期望的停止事件后，停止性能会更平滑。这只适用于HKG CAN平台。</translation>
+        <source>Smoother stopping behind a stopped car or desired stopping event. This is only applicable to HKG CAN platforms using openpilot longitudinal control.</source>
+        <translation>在停车的车辆或期望的停止事件后停止得更平滑。这只适用于使用openpilot纵向控制的HKG CAN平台。</translation>
     </message>
     <message>
-        <source>斯巴鲁</source>
+        <source>Subaru</source>
         <translation>斯巴鲁</translation>
     </message>
     <message>
-        <source>手动停车制动器：停车和行驶（测试版）</source>
-        <translation>手动停车制动器：停车和行驶（测试版）</translation>
+        <source>Manual Parking Brake: Stop and Go (Beta)</source>
+        <translation>手动停车制动：停车和行驶（测试版）</translation>
     </message>
     <message>
-        <source>为斯巴鲁全球型号的手动手刹车启用停车和行驶的实验性功能。电动停车制动器的型号应该保持此功能禁用。感谢martinl的实现！</source>
-        <translation>为斯巴鲁全球型号的手动手刹车启用停车和行驶的实验性功能。电动停车制动器的型号应该保持此功能禁用。感谢martinl的实现！</translation>
+        <source>Experimental feature to enable stop and go for Subaru Global models with manual handbrake. Models with electric parking brake should keep this disabled. Thanks to martinl for this implementation!</source>
+        <translation>为斯巴鲁全球型号的手动手刹车启用停车和行驶的实验性功能。具有电动停车制动的型号应保持此功能禁用。感谢martinl的实现！</translation>
     </message>
     <message>
-        <source>丰田/雷克萨斯</source>
+        <source>Toyota/Lexus</source>
         <translation>丰田/雷克萨斯</translation>
     </message>
     <message>
-        <source>启用原装丰田纵向控制</source>
-        <translation>启用原装丰田纵向控制</translation>
+        <source>Enable Stock Toyota Longitudinal Control</source>
+        <translation>启用丰田原厂纵向控制</translation>
     </message>
     <message>
-        <source>sunnypilot不会接管油门和刹车的控制。将使用原装丰田纵向控制。</source>
-        <translation>sunnypilot不会接管油门和刹车的控制。将使用原装丰田纵向控制。</translation>
+        <source>sunnypilot will &lt;b&gt;not&lt;/b&gt; take over control of gas and brakes. Stock Toyota longitudinal control will be used.</source>
+        <translation>sunnypilot 将&lt;b&gt;不&lt;/b&gt;接管油门和刹车的控制。将使用丰田原厂的纵向控制。</translation>
     </message>
     <message>
-        <source>允许M.A.D.S.切换 w/ LKAS按钮（测试版）</source>
-        <translation>允许M.A.D.S.切换 w/ LKAS按钮（测试版）</translation>
+        <source>Allow M.A.D.S. toggling w/ LKAS Button (Beta)</source>
+        <translation>允许使用LKAS按钮切换M.A.D.S.（测试版）</translation>
     </message>
     <message>
-        <source>允许通过方向盘上的“LKAS”按钮来启用/禁用M.A.D.S。</source>
-        <translation>允许通过方向盘上的“LKAS”按钮来启用/禁用M.A.D.S。</translation>
+        <source>Allows M.A.D.S. engagement/disengagement with &quot;LKAS&quot; button from the steering wheel.</source>
+        <translation>允许使用方向盘上的&quot;LKAS&quot;按钮来启用/禁用M.A.D.S.。</translation>
     </message>
     <message>
-        <source>注意：启用此切换可能会对方向控制产生意外的行为。是驾驶员的责任来观察环境并作出相应的决定。</source>
-        <translation>注意：启用此切换可能会对方向控制产生意外的行为。是驾驶员的责任来观察环境并作出相应的决定。</translation>
+        <source>Note: Enabling this toggle may have unexpected behavior with steering control. It is the driver&apos;s responsibility to observe their environment and make decisions accordingly.</source>
+        <translation>注意：启用此切换可能会与方向控制产生意外行为。是驾驶员的责任观察他们的环境并根据情况做出决定。</translation>
     </message>
     <message>
-        <source>丰田TSS2纵向：自定义调整</source>
+        <source>Toyota TSS2 Longitudinal: Custom Tuning</source>
         <translation>丰田TSS2纵向：自定义调整</translation>
     </message>
     <message>
-        <source>为丰田/雷克萨斯TSS2/LSS2车型提供更平滑的纵向性能。感谢dragonpilot-community的实现。</source>
-        <translation>为丰田/雷克萨斯TSS2/LSS2车型提供更平滑的纵向性能。感谢dragonpilot-community的实现。</translation>
+        <source>Smoother longitudinal performance for Toyota/Lexus TSS2/LSS2 cars. Big thanks to dragonpilot-community for this implementation.</source>
+        <translation>为丰田/雷克萨斯TSS2/LSS2车辆提供更平滑的纵向性能。非常感谢dragonpilot-community的实现。</translation>
     </message>
     <message>
-        <source>启用增强盲点监控</source>
+        <source>Enable Enhanced Blind Spot Monitor</source>
         <translation>启用增强盲点监控</translation>
     </message>
     <message>
-        <source>启用丰田停车和行驶黑客</source>
+        <source>Enable Toyota Stop and Go Hack</source>
         <translation>启用丰田停车和行驶黑客</translation>
     </message>
     <message>
-        <source>sunnypilot将允许某些丰田/雷克萨斯车型在停车和行驶交通中自动恢复。这个功能只适用于特定的车型。请自行承担风险。</source>
-        <translation>sunnypilot将允许某些丰田/雷克萨斯车型在停车和行驶交通中自动恢复。这个功能只适用于特定的车型。请自行承担风险。</translation>
+        <source>sunnypilot will allow some Toyota/Lexus cars to auto resume during stop and go traffic. This feature is only applicable to certain models. Use at your own risk.</source>
+        <translation>sunnypilot 将允许一些丰田/雷克萨斯车辆在停车和行驶交通中自动恢复。这项功能只适用于特定的车型。请自行承担风险。</translation>
     </message>
     <message>
-        <source>启用丰田车门自动锁定</source>
-        <translation>启用丰田车门自动锁定</translation>
+        <source>Enable Toyota Door Auto Locking</source>
+        <translation>启用丰田门自动锁定</translation>
     </message>
     <message>
-        <source>sunnypilot将尝试在行驶速度超过10 km/h（6.2 mph）时锁定车门。
-需要重启。</source>
-        <translation>sunnypilot将尝试在行驶速度超过10 km/h（6.2 mph）时锁定车门。
+        <source>sunnypilot will attempt to lock the doors when drive above 10 km/h (6.2 mph).
+Reboot Required.</source>
+        <translation>sunnypilot 将尝试在车速超过10 km/h（6.2 mph）时锁定车门。
 需要重启。</translation>
     </message>
     <message>
-        <source>启用丰田车门自动解锁</source>
-        <translation>启用丰田车门自动解锁</translation>
+        <source>Enable Toyota Door Auto Unlocking</source>
+        <translation>启用丰田门自动解锁</translation>
     </message>
     <message>
-        <source>sunnypilot将尝试在换到P挡时解锁车门。
-需要重启。</source>
-        <translation>sunnypilot将尝试在换到P挡时解锁车门。
+        <source>sunnypilot will attempt to unlock the doors when shift to gear P.
+Reboot Required.</source>
+        <translation>sunnypilot 将尝试在换到P挡时解锁车门。
 需要重启。</translation>
     </message>
     <message>
-        <source>大众</source>
+        <source>Volkswagen</source>
         <translation>大众</translation>
     </message>
     <message>
-        <source>启用CC Only支持</source>
-        <translation>启用CC Only支持</translation>
+        <source>Enable CC Only support</source>
+        <translation>仅启用CC支持</translation>
     </message>
     <message>
-        <source>启用此切换后，sunnypilot将支持大众MQB CC平台。只有当您的车辆没有厂家提供的ACC时，才应该启用此切换。</source>
-        <translation>启用此切换后，sunnypilot将支持大众MQB CC平台。只有当您的车辆没有厂家提供的ACC时，才应该启用此切换。</translation>
+        <source>sunnypilot supports Volkswagen MQB CC only platforms with this toggle enabled. Only enable this toggle if your car does not have ACC from the factory.</source>
+        <translation>启用此切换时，sunnypilot支持仅有Volkswagen MQB CC平台的车辆。只有您的车辆没有厂家提供的ACC时，才应启用此切换。</translation>
     </message>
     <message>
-        <source>启动车辆以检查车辆兼容性</source>
+        <source>Start the car to check car compatibility</source>
         <translation>启动车辆以检查车辆兼容性</translation>
     </message>
     <message>
-        <source>此平台已经支持，无需启用此切换</source>
-        <translation>此平台已经支持，无需启用此切换</translation>
+        <source>This platform is already supported, therefore no need to enable this toggle</source>
+        <translation>这个平台已经支持，因此不需要启用此切换</translation>
     </message>
     <message>
-        <source>此平台不支持</source>
-        <translation>此平台不支持</translation>
+        <source>This platform is not supported</source>
+        <translation>这个平台不支持</translation>
     </message>
     <message>
-        <source>此平台可以支持</source>
-        <translation>此平台可以支持</translation>
+        <source>This platform can be supported</source>
+        <translation>这个平台可以支持</translation>
     </message>
     <message>
-        <source>sunnypilot将使用调试CAN消息来接收未过滤的BSM信号，从而允许检测更多对象。</source>
-        <translation>sunnypilot将使用调试CAN消息来接收未过滤的BSM信号，从而允许检测更多对象。</translation>
+        <source>sunnypilot will use debugging CAN messages to receive unfiltered BSM signals, allowing detection of more objects.</source>
+        <translation>sunnypilot 将使用调试CAN消息来接收未过滤的BSM信号，从而允许检测更多对象。</translation>
     </message>
     <message>
-        <source>在RAV4 TSS1、Lexus LSS1、Toyota TSS1/1.5和Prius TSS2上进行了测试。</source>
-        <translation>在RAV4 TSS1、Lexus LSS1、Toyota TSS1/1.5和Prius TSS2上进行了测试。</translation>
+        <source>Tested on RAV4 TSS1, Lexus LSS1, Toyota TSS1/1.5, and Prius TSS2.</source>
+        <translation>在RAV4 TSS1、Lexus LSS1、Toyota TSS1/1.5和Prius TSS2上测试。</translation>
     </message>
     <message>
-        <source>HKG CAN：默认启用巡航主控</source>
-        <translation>HKG CAN：默认启用巡航主控</translation>
+        <source>HKG CAN: Enable Cruise Main by Default</source>
+        <translation>HKG CAN：默认启用巡航主功能</translation>
     </message>
     <message>
-        <source>警告：此功能仅在“Toggles”下启用“openpilot纵向控制（Alpha）”时适用</source>
-        <translation>警告：此功能仅在“Toggles”下启用“openpilot纵向控制（Alpha）”时适用</translation>
+        <source>WARNING: This feature only applies when &quot;openpilot Longitudinal Control (Alpha)&quot; is enabled under &quot;Toggles&quot;</source>
+        <translation>警告：只有在&quot;Toggles&quot;下启用&quot;openpilot纵向控制（Alpha）&quot;时，这个功能才适用。</translation>
     </message>
     <message>
-        <source>启用此切换将在车辆启动时默认将CRUISE MAIN设置为ON，不会启动MADS。用户仍需要手动启动MADS。</source>
-        <translation>启用此切换将在车辆启动时默认将CRUISE MAIN设置为ON，不会启动MADS。用户仍需要手动启动MADS。</translation>
+        <source>Enabling this toggle sets CRUISE MAIN to ON by default when the car starts, without engaging MADS. The user still needs to manually engage MADS.</source>
+        <translation>启用此切换时，车辆启动时默认将CRUISE MAIN设置为ON，不会启用MADS。用户仍需要手动启用MADS。</translation>
     </message>
 </context>
 <context>
@@ -2576,120 +2576,120 @@ This may take up to a minute.</source>
         <translation>前车离开警报</translation>
     </message>
     <message>
-        <source>启用此功能将在前车驶离时进行通知。</source>
-        <translation type="unfinished"></translation>
+        <source>Enable this will notify when the leading vehicle drives away.</source>
+        <translation>启用此功能将在前方车辆驶离时发出通知。</translation>
     </message>
     <message>
-        <source>自定义 M.A.D.S.</source>
-        <translation type="unfinished"></translation>
+        <source>Customize M.A.D.S.</source>
+        <translation>自定义M.A.D.S.</translation>
     </message>
     <message>
-        <source>自定义车道变更</source>
-        <translation type="unfinished"></translation>
+        <source>Customize Lane Change</source>
+        <translation>自定义车道变换</translation>
     </message>
     <message>
-        <source>自定义偏移</source>
-        <translation type="unfinished"></translation>
+        <source>Customize Offsets</source>
+        <translation>自定义偏移量</translation>
     </message>
     <message>
-        <source>自定义速度限制控制</source>
-        <translation type="unfinished"></translation>
+        <source>Customize Speed Limit Control</source>
+        <translation>自定义速度限制控制</translation>
     </message>
     <message>
-        <source>自定义警告</source>
-        <translation type="unfinished"></translation>
+        <source>Customize Warning</source>
+        <translation>自定义警告</translation>
     </message>
     <message>
-        <source>自定义来源</source>
-        <translation type="unfinished"></translation>
+        <source>Customize Source</source>
+        <translation>自定义来源</translation>
     </message>
     <message>
-        <source>车道满</source>
-        <translation type="unfinished"></translation>
+        <source>Laneful</source>
+        <translation>有车道的</translation>
     </message>
     <message>
-        <source>无车道</source>
-        <translation type="unfinished"></translation>
+        <source>Laneless</source>
+        <translation>无车道的</translation>
     </message>
     <message>
-        <source>自动</source>
-        <translation type="unfinished"></translation>
+        <source>Auto</source>
+        <translation>自动</translation>
     </message>
     <message>
-        <source>动态车道配置文件</source>
-        <translation type="unfinished"></translation>
+        <source>Dynamic Lane Profile</source>
+        <translation>动态车道配置</translation>
     </message>
     <message>
-        <source>速度限制辅助</source>
-        <translation type="unfinished"></translation>
+        <source>Speed Limit Assist</source>
+        <translation>速度限制辅助</translation>
     </message>
     <message>
-        <source>实时和离线</source>
-        <translation type="unfinished"></translation>
+        <source>Real-time and Offline</source>
+        <translation>实时和离线</translation>
     </message>
     <message>
-        <source>仅离线</source>
-        <translation type="unfinished"></translation>
+        <source>Offline Only</source>
+        <translation>仅离线</translation>
     </message>
     <message>
-        <source>当前驾驶模式不支持动态车道配置文件</source>
-        <translation type="unfinished"></translation>
+        <source>Dynamic Lane Profile is not available with the current Driving Model</source>
+        <translation>当前驾驶模式下不支持动态车道配置</translation>
     </message>
     <message>
-        <source>当前驾驶模式不支持自定义偏移</source>
-        <translation type="unfinished"></translation>
+        <source>Custom Offsets is not available with the current Driving Model</source>
+        <translation>当前驾驶模式下不支持自定义偏移量</translation>
     </message>
     <message>
-        <source>当前平台不支持 NNLC。</source>
-        <translation type="unfinished"></translation>
+        <source>NNLC is currently not available on this platform.</source>
+        <translation>当前NNLC在此平台上不可用。</translation>
     </message>
     <message>
-        <source>匹配：&quot;精确&quot;是理想的，但&quot;模糊&quot;也可以。如果有任何问题，请在以下频道与 sunnypilot 团队联系： </source>
-        <translation type="unfinished"></translation>
+        <source>Match: &quot;Exact&quot; is ideal, but &quot;Fuzzy&quot; is fine too. Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server if there are any issues: </source>
+        <translation>匹配：&quot;精确&quot;是理想的，但&quot;模糊&quot;也可以。如果有任何问题，请在sunnypilot Discord服务器的以下频道中与sunnypilot团队联系：</translation>
     </message>
     <message>
-        <source>启动车辆以检查车辆兼容性</source>
-        <translation type="unfinished"></translation>
+        <source>Start the car to check car compatibility</source>
+        <translation>启动车辆以检查车辆兼容性</translation>
     </message>
     <message>
-        <source>NNLC 未加载</source>
-        <translation type="unfinished"></translation>
+        <source>NNLC Not Loaded</source>
+        <translation>NNLC未加载</translation>
     </message>
     <message>
-        <source>NNLC 已加载</source>
-        <translation type="unfinished"></translation>
+        <source>NNLC Loaded</source>
+        <translation>NNLC已加载</translation>
     </message>
     <message>
-        <source>模糊</source>
-        <translation type="unfinished"></translation>
+        <source>Fuzzy</source>
+        <translation>模糊</translation>
     </message>
     <message>
-        <source>精确</source>
-        <translation type="unfinished"></translation>
+        <source>Exact</source>
+        <translation>精确</translation>
     </message>
     <message>
-        <source>在 sunnypilot Discord 服务器的以下频道与 sunnypilot 团队联系，并捐赠日志以加载 NNLC 到您的车辆： </source>
-        <translation type="unfinished"></translation>
+        <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server and donate logs to get NNLC loaded for your car: </source>
+        <translation>请在sunnypilot Discord服务器的以下频道中与sunnypilot团队联系，并捐赠日志以获取您车辆的NNLC加载：</translation>
     </message>
     <message>
-        <source>匹配</source>
-        <translation type="unfinished"></translation>
+        <source>Match</source>
+        <translation>匹配</translation>
     </message>
     <message>
-        <source>曾被称为&lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;，这个替换了横向&lt;b&gt;&quot;扭矩&quot;&lt;/b&gt;控制器，使用了一个神经网络，该神经网络是根据每辆车的（实际上，每个单独的EPS固件）驾驶数据进行训练的，以提高控制精度。</source>
-        <translation type="unfinished"></translation>
+        <source>Formerly known as &lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;, this replaces the lateral &lt;b&gt;&quot;torque&quot;&lt;/b&gt; controller, with one using a neural network trained on each car&apos;s (actually, each separate EPS firmware) driving data for increased controls accuracy.</source>
+        <translation>曾经被称为&lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;，这取代了横向&lt;b&gt;&quot;扭矩&quot;&lt;/b&gt;控制器，使用一个在每辆车的驾驶数据（实际上，每个独立的EPS固件）上训练的神经网络，以提高控制的准确性。</translation>
     </message>
     <message>
-        <source>在sunnypilot Discord服务器的以下频道与sunnypilot团队联系，提供反馈，或者为您的车辆提供日志数据，如果您的车辆目前不受支持： </source>
-        <translation type="unfinished"></translation>
+        <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server with feedback, or to provide log data for your car if your car is currently unsupported: </source>
+        <translation>请在sunnypilot Discord服务器的以下频道中与sunnypilot团队联系，提供反馈，或者如果您的车辆当前不受支持，为您的车辆提供日志数据：</translation>
     </message>
     <message>
-        <source>在sunnypilot中为摄像头和路径添加自定义偏移。</source>
-        <translation type="unfinished"></translation>
+        <source>Add custom offsets to Camera and Path in sunnypilot.</source>
+        <translation>在sunnypilot中为摄像头和路径添加自定义偏移量。</translation>
     </message>
     <message>
-        <source>默认是无车道。在自动模式下，sunnypilot会根据道路上的车道识别置信度水平和特定条件动态选择Laneline或Laneless模型。</source>
-        <translation type="unfinished"></translation>
+        <source>Default is Laneless. In Auto mode, sunnnypilot dynamically chooses between Laneline or Laneless model based on lane recognition confidence level on road and certain conditions.</source>
+        <translation>默认为无车道模式。在自动模式下，sunnypilot根据道路上车道识别的置信度水平和某些条件动态选择Laneline或无车道模型。</translation>
     </message>
 </context>
 <context>
