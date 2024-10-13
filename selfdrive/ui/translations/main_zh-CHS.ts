@@ -2897,12 +2897,12 @@ Reboot Required.</source>
     </message>
     <message>
         <source>Custom Stock Longitudinal Control</source>
-        <translation>自定义股票纵向控制</translation>
+        <translation>自定义原始纵向控制</translation>
     </message>
     <message>
         <source>When enabled, sunnypilot will attempt to control stock longitudinal control with ACC button presses.
 This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
-        <translation>启用后，sunnypilot将尝试使用ACC按钮按下来控制股票纵向控制。
+        <translation>启用后，sunnypilot将尝试使用ACC按钮按下来控制原始纵向控制。
 此功能必须与SLC、和/或V-TSC、和/或M-TSC一起使用。</translation>
     </message>
     <message>
