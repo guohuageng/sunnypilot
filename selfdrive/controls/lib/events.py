@@ -1091,7 +1091,7 @@ EVENTS: dict[int, dict[str, Alert | AlertCallbackType]] = {
   EventName.hyundaiRadarTracksAvailable: {
     ET.PERMANENT: NormalPermanentAlert("雷达轨迹可用。请重启车辆以初始化")
   }
-
+}
 
 if __name__ == '__main__':
   # print all alerts by type and priority
