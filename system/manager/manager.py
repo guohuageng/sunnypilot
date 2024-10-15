@@ -71,6 +71,7 @@ def manager_init() -> None:
     ("EnhancedScc", "0"),
     ("FeatureStatus", "1"),
     ("HandsOnWheelMonitoring", "0"),
+    ("IsRhdDetected", "0"),
     ("HasAcceptedTermsSP", "0"),
     ("HideVEgoUi", "0"),
     ("HyundaiCruiseMainDefault", "0"),
