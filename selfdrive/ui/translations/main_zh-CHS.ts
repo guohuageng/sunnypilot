@@ -91,11 +91,11 @@
     <name>AdvancedNetworkingSP</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">返回</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>Enable Tethering</source>
-        <translation type="unfinished">启用WiFi热点</translation>
+        <translation>启用WiFi热点</translation>
     </message>
     <message>
         <source>Retain hotspot/tethering state</source>
@@ -107,47 +107,47 @@
     </message>
     <message>
         <source>Tethering Password</source>
-        <translation type="unfinished">WiFi热点密码</translation>
+        <translation>WiFi热点密码</translation>
     </message>
     <message>
         <source>EDIT</source>
-        <translation type="unfinished">编辑</translation>
+        <translation>编辑</translation>
     </message>
     <message>
         <source>Enter new tethering password</source>
-        <translation type="unfinished">输入新的WiFi热点密码</translation>
+        <translation>输入新的WiFi热点密码</translation>
     </message>
     <message>
         <source>IP Address</source>
-        <translation type="unfinished">IP地址</translation>
+        <translation>IP地址</translation>
     </message>
     <message>
         <source>Enable Roaming</source>
-        <translation type="unfinished">启用数据漫游</translation>
+        <translation>启用数据漫游</translation>
     </message>
     <message>
         <source>APN Setting</source>
-        <translation type="unfinished">APN设置</translation>
+        <translation>APN设置</translation>
     </message>
     <message>
         <source>Enter APN</source>
-        <translation type="unfinished">输入APN</translation>
+        <translation>输入APN</translation>
     </message>
     <message>
         <source>leave blank for automatic configuration</source>
-        <translation type="unfinished">留空以自动配置</translation>
+        <translation>留空以自动配置</translation>
     </message>
     <message>
         <source>Cellular Metered</source>
-        <translation type="unfinished">按流量计费的手机移动网络</translation>
+        <translation>按流量计费的手机移动网络</translation>
     </message>
     <message>
         <source>Prevent large data uploads when on a metered connection</source>
-        <translation type="unfinished">当使用按流量计费的连接时，避免上传大流量数据</translation>
+        <translation>当使用按流量计费的连接时，避免上传大流量数据</translation>
     </message>
     <message>
         <source>Hidden Network</source>
-        <translation type="unfinished">隐藏的网络</translation>
+        <translation>隐藏的网络</translation>
     </message>
     <message>
         <source>CONNECT</source>
@@ -155,19 +155,19 @@
     </message>
     <message>
         <source>Enter SSID</source>
-        <translation type="unfinished">输入 SSID</translation>
+        <translation>输入 SSID</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished">输入密码</translation>
+        <translation>输入密码</translation>
     </message>
     <message>
         <source>for &quot;%1&quot;</source>
-        <translation type="unfinished">网络名称：&quot;%1&quot;</translation>
+        <translation>网络名称：&quot;%1&quot;</translation>
     </message>
     <message>
         <source>Ngrok Service</source>
-        <translation type="unfinished">Ngrok服务</translation>
+        <translation>Ngrok服务</translation>
     </message>
 </context>
 <context>
@@ -197,23 +197,23 @@
     <name>AnnotatedCameraWidgetSP</name>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">km/h</translation>
+        <translation>km/h</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">mph</translation>
+        <translation>mph</translation>
     </message>
     <message>
         <source>MAX</source>
-        <translation type="unfinished">最高定速</translation>
+        <translation>最高定速</translation>
     </message>
     <message>
         <source>SPEED</source>
-        <translation type="unfinished">速度</translation>
+        <translation>速度</translation>
     </message>
     <message>
         <source>LIMIT</source>
-        <translation type="unfinished">限制</translation>
+        <translation>限制</translation>
     </message>
 </context>
 <context>
@@ -317,7 +317,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>CustomOffsetsSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">返回</translation>
+        <translation>返回</translation>
     </message>
 </context>
 <context>
@@ -561,7 +561,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">重置</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <source>Reset sunnypilot Settings</source>
@@ -573,7 +573,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Toggle Onroad/Offroad</source>
-        <translation>切换行车/非行车模式</translation>
+        <translation>切换行车/离线模式</translation>
     </message>
     <message>
         <source>OFF</source>
@@ -581,7 +581,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Are you sure you want to unforce offroad?</source>
-        <translation>您确定要取消强制非行车模式吗？</translation>
+        <translation>您确定要取消强制离线模式吗？</translation>
     </message>
     <message>
         <source>Unforce</source>
@@ -589,7 +589,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Are you sure you want to force offroad?</source>
-        <translation>您确定要强制非行车模式吗？</translation>
+        <translation>您确定要强制离线模式吗？</translation>
     </message>
     <message>
         <source>Force</source>
@@ -597,15 +597,15 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Disengage to Force Offroad</source>
-        <translation>脱离以强制非行车模式</translation>
+        <translation>脱离以强制离线模式</translation>
     </message>
     <message>
         <source>Unforce Offroad</source>
-        <translation>取消强制非行车模式</translation>
+        <translation>取消强制离线模式</translation>
     </message>
     <message>
         <source>Force Offroad</source>
-        <translation>强制非行车模式</translation>
+        <translation>强制离线模式</translation>
     </message>
     <message>
         <source>Fleet Manager PIN:</source>
@@ -700,7 +700,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     <name>LaneChangeSettings</name>
     <message>
         <source>Back</source>
-        <translation type="unfinished">返回</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>Pause Lateral Below Speed with Blinker</source>
@@ -912,19 +912,19 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     </message>
     <message>
         <source>Advanced</source>
-        <translation type="unfinished">高级</translation>
+        <translation>高级</translation>
     </message>
     <message>
         <source>Enter password</source>
-        <translation type="unfinished">输入密码</translation>
+        <translation>输入密码</translation>
     </message>
     <message>
         <source>for &quot;%1&quot;</source>
-        <translation type="unfinished">网络名称：&quot;%1&quot;</translation>
+        <translation>网络名称：&quot;%1&quot;</translation>
     </message>
     <message>
         <source>Wrong password</source>
-        <translation type="unfinished">密码错误</translation>
+        <translation>密码错误</translation>
     </message>
 </context>
 <context>
@@ -989,7 +989,7 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     </message>
     <message>
         <source>sunnypilot is now in Forced Offroad mode. sunnypilot won&apos;t start until Forced Offroad mode is disabled. Go to &quot;Settings&quot; -&gt; &quot;Device&quot; -&gt; &quot;Unforce Offroad&quot; to exit Force Offroad mode.</source>
-        <translation>sunnypilot 现在处于强制非行车模式。sunnypilot 直到强制非行车模式被禁用之前都不会启动。请到“设置”-&gt;“设备”-&gt;“取消强制越野”以退出强制非行车模式。</translation>
+        <translation>sunnypilot 现在处于强制离线模式。sunnypilot 直到强制离线模式被禁用之前都不会启动。请到“设置”-&gt;“设备”-&gt;“取消强制越野”以退出强制离线模式。</translation>
     </message>
 </context>
 <context>
@@ -1046,7 +1046,7 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     </message>
     <message>
         <source>min</source>
-        <translation type="unfinished">分钟</translation>
+        <translation>分钟</translation>
     </message>
     <message>
         <source>Always On</source>
@@ -1083,35 +1083,35 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <name>OsmPanel</name>
     <message>
         <source>Mapd Version</source>
-        <translation type="unfinished">地图版本</translation>
+        <translation>地图版本</translation>
     </message>
     <message>
         <source>Offline Maps ETA</source>
-        <translation type="unfinished">离线地图预计到达时间</translation>
+        <translation>离线地图预计到达时间</translation>
     </message>
     <message>
         <source>Time Elapsed</source>
-        <translation type="unfinished">已用时间</translation>
+        <translation>已用时间</translation>
     </message>
     <message>
         <source>Downloaded Maps</source>
-        <translation type="unfinished">已下载地图</translation>
+        <translation>已下载地图</translation>
     </message>
     <message>
         <source>DELETE</source>
-        <translation type="unfinished">删除</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>This will delete ALL downloaded maps
 
 Are you sure you want to delete all the maps?</source>
-        <translation type="unfinished">这将删除所有已下载的地图
+        <translation>这将删除所有已下载的地图
 
 您确定要删除所有地图吗？</translation>
     </message>
     <message>
         <source>Yes, delete all the maps.</source>
-        <translation type="unfinished">是的，删除所有地图。</translation>
+        <translation>是的，删除所有地图。</translation>
     </message>
     <message>
         <source>Database Update</source>
@@ -1246,11 +1246,11 @@ Warning: You are on a metered connection!</source>
     <name>ParamControlSP</name>
     <message>
         <source>Enable</source>
-        <translation type="unfinished">启用</translation>
+        <translation>启用</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -1280,11 +1280,11 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">km/h</translation>
+        <translation>km/h</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">mph</translation>
+        <translation>mph</translation>
     </message>
 </context>
 <context>
@@ -1383,7 +1383,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Update downloaded. Ready to reboot.</source>
@@ -1613,55 +1613,55 @@ Reboot Required.</source>
     <name>SettingsWindowSP</name>
     <message>
         <source>×</source>
-        <translation type="unfinished">×</translation>
+        <translation>×</translation>
     </message>
     <message>
         <source>Device</source>
-        <translation type="unfinished">设备</translation>
+        <translation>设备</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished">网络</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>sunnylink</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnylink</translation>
     </message>
     <message>
         <source>Toggles</source>
-        <translation type="unfinished">设定</translation>
+        <translation>设定</translation>
     </message>
     <message>
         <source>Software</source>
-        <translation type="unfinished">软件</translation>
+        <translation>软件</translation>
     </message>
     <message>
         <source>sunnypilot</source>
-        <translation type="unfinished"></translation>
+        <translation>sunnypilot</translation>
     </message>
     <message>
         <source>OSM</source>
-        <translation type="unfinished">OSM</translation>
+        <translation>OSM</translation>
     </message>
     <message>
         <source>Monitoring</source>
-        <translation type="unfinished">监控</translation>
+        <translation>监控</translation>
     </message>
     <message>
         <source>Visuals</source>
-        <translation type="unfinished">视觉</translation>
+        <translation>视觉</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished">显示</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <source>Trips</source>
-        <translation type="unfinished">行程</translation>
+        <translation>行程</translation>
     </message>
     <message>
         <source>Vehicle</source>
-        <translation type="unfinished">车辆</translation>
+        <translation>车辆</translation>
     </message>
 </context>
 <context>
@@ -1861,94 +1861,94 @@ Reboot Required.</source>
     <name>SidebarSP</name>
     <message>
         <source>TEMP</source>
-        <translation type="unfinished">设备温度</translation>
+        <translation>设备温度</translation>
     </message>
     <message>
         <source>HIGH</source>
-        <translation type="unfinished">过热</translation>
+        <translation>过热</translation>
     </message>
     <message>
         <source>GOOD</source>
-        <translation type="unfinished">良好</translation>
+        <translation>良好</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">一般</translation>
+        <translation>一般</translation>
     </message>
     <message>
         <source>DISABLED</source>
-        <translation type="unfinished">已禁用</translation>
+        <translation>已禁用</translation>
     </message>
     <message>
         <source>OFFLINE</source>
-        <translation type="unfinished">离线</translation>
+        <translation>离线</translation>
     </message>
     <message>
         <source>REGIST...</source>
-        <translation type="unfinished">注册...</translation>
+        <translation>注册...</translation>
     </message>
     <message>
         <source>ONLINE</source>
-        <translation type="unfinished">在线</translation>
+        <translation>在线</translation>
     </message>
     <message>
         <source>ERROR</source>
-        <translation type="unfinished">连接出错</translation>
+        <translation>连接出错</translation>
     </message>
     <message>
         <source>SUNNYLINK</source>
-        <translation type="unfinished"></translation>
+        <translation>SUNNYLINK</translation>
     </message>
 </context>
 <context>
     <name>SlcSettings</name>
     <message>
         <source>Auto</source>
-        <translation type="unfinished">自动</translation>
+        <translation>自动</translation>
     </message>
     <message>
         <source>User Confirm</source>
-        <translation type="unfinished">用户确认</translation>
+        <translation>用户确认</translation>
     </message>
     <message>
         <source>Engage Mode</source>
-        <translation type="unfinished">参与模式</translation>
+        <translation>参与模式</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished">默认</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <source>Fixed</source>
-        <translation type="unfinished">固定</translation>
+        <translation>固定</translation>
     </message>
     <message>
         <source>Percentage</source>
-        <translation type="unfinished">百分比</translation>
+        <translation>百分比</translation>
     </message>
     <message>
         <source>Limit Offset</source>
-        <translation type="unfinished">限制偏移</translation>
+        <translation>限制偏移</translation>
     </message>
     <message>
         <source>Set speed limit slightly higher than actual speed limit for a more natural drive.</source>
-        <translation type="unfinished">将速度限制设置为略高于实际速度限制，以获得更自然的驾驶体验。</translation>
+        <translation>将速度限制设置为略高于实际速度限制，以获得更自然的驾驶体验。</translation>
     </message>
     <message>
         <source>This platform defaults to &lt;b&gt;Auto&lt;/b&gt; mode. &lt;b&gt;User Confirm&lt;/b&gt; mode is not supported on this platform.</source>
-        <translation type="unfinished">此平台默认为&lt;b&gt;自动&lt;/b&gt;模式。&lt;b&gt;用户确认&lt;/b&gt;模式在此平台上不受支持。</translation>
+        <translation>此平台默认为&lt;b&gt;自动&lt;/b&gt;模式。&lt;b&gt;用户确认&lt;/b&gt;模式在此平台上不受支持。</translation>
     </message>
     <message>
         <source>Select the desired mode to set the cruising speed to the speed limit:</source>
-        <translation type="unfinished">选择所需的模式，将巡航速度设置为速度限制：</translation>
+        <translation>选择所需的模式，将巡航速度设置为速度限制：</translation>
     </message>
     <message>
         <source>Auto: Automatic speed adjustment on motorways based on speed limit data.</source>
-        <translation type="unfinished">自动：根据速度限制数据在高速公路上自动调整速度。</translation>
+        <translation>自动：根据速度限制数据在高速公路上自动调整速度。</translation>
     </message>
     <message>
         <source>User Confirm: Inform the driver to change set speed of Adaptive Cruise Control to help the driver stay within the speed limit.</source>
-        <translation type="unfinished">用户确认：通知驾驶员更改自适应巡航控制的设置速度，以帮助驾驶员保持在速度限制内。</translation>
+        <translation>用户确认：通知驾驶员更改自适应巡航控制的设置速度，以帮助驾驶员保持在速度限制内。</translation>
     </message>
 </context>
 <context>
@@ -2106,7 +2106,7 @@ Reboot Required.</source>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished">继续</translation>
+        <translation>继续</translation>
     </message>
     <message>
         <source>on Metered</source>
@@ -2242,15 +2242,15 @@ Reboot Required.</source>
     <name>SpeedLimitWarningValueOffset</name>
     <message>
         <source>N/A</source>
-        <translation type="unfinished">N/A</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>km/h</source>
-        <translation type="unfinished">km/h</translation>
+        <translation>km/h</translation>
     </message>
     <message>
         <source>mph</source>
-        <translation type="unfinished">mph</translation>
+        <translation>mph</translation>
     </message>
 </context>
 <context>
@@ -2715,15 +2715,15 @@ Reboot Required.</source>
     <name>TermsPageSP</name>
     <message>
         <source>Terms &amp; Conditions</source>
-        <translation type="unfinished">条款和条件</translation>
+        <translation>条款和条件</translation>
     </message>
     <message>
         <source>Decline</source>
-        <translation type="unfinished">拒绝</translation>
+        <translation>拒绝</translation>
     </message>
     <message>
         <source>Scroll to accept</source>
-        <translation type="unfinished">滑动以接受</translation>
+        <translation>滑动以接受</translation>
     </message>
 </context>
 <context>
@@ -2885,7 +2885,7 @@ Reboot Required.</source>
     </message>
     <message>
         <source>openpilot Longitudinal Control (Alpha)</source>
-        <translation type="unfinished">openpilot纵向控制（Alpha 版）</translation>
+        <translation>openpilot纵向控制（Alpha 版）</translation>
     </message>
     <message>
         <source>WARNING: sunnypilot longitudinal control is in alpha for this car and will disable Automatic Emergency Braking (AEB).</source>
@@ -2927,23 +2927,23 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Disengage on Accelerator Pedal</source>
-        <translation type="unfinished">踩油门时取消控制</translation>
+        <translation>踩油门时取消控制</translation>
     </message>
     <message>
         <source>When enabled, pressing the accelerator pedal will disengage openpilot.</source>
-        <translation type="unfinished">启用后，踩下油门踏板将取消openpilot。</translation>
+        <translation>启用后，踩下油门踏板将取消openpilot。</translation>
     </message>
     <message>
         <source>Enable Lane Departure Warnings</source>
-        <translation type="unfinished">启用车道偏离警告</translation>
+        <translation>启用车道偏离警告</translation>
     </message>
     <message>
         <source>Receive alerts to steer back into the lane when your vehicle drifts over a detected lane line without a turn signal activated while driving over 31 mph (50 km/h).</source>
-        <translation type="unfinished">车速超过31mph（50km/h）时，若检测到车辆越过车道线且未打转向灯，系统将发出警告以提醒您返回车道。</translation>
+        <translation>车速超过31mph（50km/h）时，若检测到车辆越过车道线且未打转向灯，系统将发出警告以提醒您返回车道。</translation>
     </message>
     <message>
         <source>Always-On Driver Monitoring</source>
-        <translation type="unfinished">驾驶员监控常开</translation>
+        <translation>驾驶员监控常开</translation>
     </message>
     <message>
         <source>Enable driver monitoring even when sunnypilot is not engaged.</source>
@@ -2951,11 +2951,11 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Record and Upload Driver Camera</source>
-        <translation type="unfinished">录制并上传驾驶员摄像头</translation>
+        <translation>录制并上传驾驶员摄像头</translation>
     </message>
     <message>
         <source>Upload data from the driver facing camera and help improve the driver monitoring algorithm.</source>
-        <translation type="unfinished">上传驾驶员摄像头的数据，帮助改进驾驶员监控算法。</translation>
+        <translation>上传驾驶员摄像头的数据，帮助改进驾驶员监控算法。</translation>
     </message>
     <message>
         <source>Disable Onroad Uploads</source>
@@ -2967,31 +2967,31 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Use Metric System</source>
-        <translation type="unfinished">使用公制单位</translation>
+        <translation>使用公制单位</translation>
     </message>
     <message>
         <source>Display speed in km/h instead of mph.</source>
-        <translation type="unfinished">显示车速时，以km/h代替mph。</translation>
+        <translation>显示车速时，以km/h代替mph。</translation>
     </message>
     <message>
         <source>Show ETA in 24h Format</source>
-        <translation type="unfinished">以24小时格式显示预计到达时间</translation>
+        <translation>以24小时格式显示预计到达时间</translation>
     </message>
     <message>
         <source>Use 24h format instead of am/pm</source>
-        <translation type="unfinished">使用24小时制代替am/pm</translation>
+        <translation>使用24小时制代替am/pm</translation>
     </message>
     <message>
         <source>Show Map on Left Side of UI</source>
-        <translation type="unfinished">在介面左侧显示地图</translation>
+        <translation>在介面左侧显示地图</translation>
     </message>
     <message>
         <source>Show map on left side when in split screen view.</source>
-        <translation type="unfinished">在分屏模式中，将地图置于屏幕左侧。</translation>
+        <translation>在分屏模式中，将地图置于屏幕左侧。</translation>
     </message>
     <message>
         <source>Aggressive</source>
-        <translation type="unfinished">积极</translation>
+        <translation>积极</translation>
     </message>
     <message>
         <source>Moderate</source>
@@ -2999,15 +2999,15 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished">标准</translation>
+        <translation>标准</translation>
     </message>
     <message>
         <source>Relaxed</source>
-        <translation type="unfinished">舒适</translation>
+        <translation>舒适</translation>
     </message>
     <message>
         <source>Driving Personality</source>
-        <translation type="unfinished">驾驶风格</translation>
+        <translation>驾驶风格</translation>
     </message>
     <message>
         <source>Standard is recommended. In moderate/aggressive mode, sunnypilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode sunnypilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
@@ -3039,11 +3039,11 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>openpilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
-        <translation type="unfinished">openpilot 默认 &lt;b&gt;轻松模式&lt;/b&gt;驾驶车辆。试验模式启用一些轻松模式之外的 &lt;b&gt;试验性功能&lt;/b&gt;。试验性功能包括：</translation>
+        <translation>openpilot 默认 &lt;b&gt;轻松模式&lt;/b&gt;驾驶车辆。试验模式启用一些轻松模式之外的 &lt;b&gt;试验性功能&lt;/b&gt;。试验性功能包括：</translation>
     </message>
     <message>
         <source>End-to-End Longitudinal Control</source>
-        <translation type="unfinished">端到端纵向控制</translation>
+        <translation>端到端纵向控制</translation>
     </message>
     <message>
         <source>Let the driving model control the gas and brakes. sunnypilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
@@ -3051,19 +3051,19 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>New Driving Visualization</source>
-        <translation type="unfinished">新驾驶视角</translation>
+        <translation>新驾驶视角</translation>
     </message>
     <message>
         <source>The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner.</source>
-        <translation type="unfinished">在低速时，驾驶可视化将转换为道路朝向的广角摄像头，以更好地展示某些转弯。测试模式标志也将显示在右上角。</translation>
+        <translation>在低速时，驾驶可视化将转换为道路朝向的广角摄像头，以更好地展示某些转弯。测试模式标志也将显示在右上角。</translation>
     </message>
     <message>
         <source>Experimental mode is currently unavailable on this car since the car&apos;s stock ACC is used for longitudinal control.</source>
-        <translation type="unfinished">由于此车辆使用自带的ACC纵向控制，当前无法使用试验模式。</translation>
+        <translation>由于此车辆使用自带的ACC纵向控制，当前无法使用试验模式。</translation>
     </message>
     <message>
         <source>openpilot longitudinal control may come in a future update.</source>
-        <translation type="unfinished">openpilot纵向控制可能会在未来的更新中提供。</translation>
+        <translation>openpilot纵向控制可能会在未来的更新中提供。</translation>
     </message>
     <message>
         <source>An alpha version of sunnypilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
@@ -3359,23 +3359,23 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     <name>WifiUISP</name>
     <message>
         <source>Scanning for networks...</source>
-        <translation type="unfinished">正在扫描网络……</translation>
+        <translation>正在扫描网络……</translation>
     </message>
     <message>
         <source>CONNECTING...</source>
-        <translation type="unfinished">正在连接……</translation>
+        <translation>正在连接……</translation>
     </message>
     <message>
         <source>FORGET</source>
-        <translation type="unfinished">忽略</translation>
+        <translation>忽略</translation>
     </message>
     <message>
         <source>Forget Wi-Fi Network &quot;%1&quot;?</source>
-        <translation type="unfinished">忽略WiFi网络 &quot;%1&quot;?</translation>
+        <translation>忽略WiFi网络 &quot;%1&quot;?</translation>
     </message>
     <message>
         <source>Forget</source>
-        <translation type="unfinished">忽略</translation>
+        <translation>忽略</translation>
     </message>
 </context>
 </TS>
