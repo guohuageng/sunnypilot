@@ -13,26 +13,26 @@ from openpilot.common.transformations.camera import DEVICE_CAMERAS
 EventName = car.CarEvent.EventName
 
 # ******************************************************************************************
-#  NOTE: To fork maintainers.
-#  Disabling or nerfing safety features will get you and your users banned from our servers.
-#  We recommend that you do not change these numbers from the defaults.
+#  注意：为了分叉维护者。
+#  禁用或削弱安全功能将导致您和您的用户被禁止使用我们的服务器。
+#  我们建议您不要更改这些数字的默认值。
 # ******************************************************************************************
 
 class DRIVER_MONITOR_SETTINGS:
   def __init__(self):
     self._DT_DMON = DT_DMON
-    # ref (page15-16): https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:42018X1947&rid=2
-    self._AWARENESS_TIME = 30. # passive wheeltouch total timeout
+    # 参考 (第15-16页): https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:42018X1947&rid=2
+    self._AWARENESS_TIME = 30. # 被动触摸轮的总超时
     self._AWARENESS_PRE_TIME_TILL_TERMINAL = 15.
     self._AWARENESS_PROMPT_TIME_TILL_TERMINAL = 6.
-    self._DISTRACTED_TIME = 11. # active monitoring total timeout
+    self._DISTRACTED_TIME = 11. # 主动监控的总超时
     self._DISTRACTED_PRE_TIME_TILL_TERMINAL = 8.
     self._DISTRACTED_PROMPT_TIME_TILL_TERMINAL = 6.
 
-    self._FACE_THRESHOLD = 0.7
-    self._EYE_THRESHOLD = 0.65
-    self._SG_THRESHOLD = 0.9
-    self._BLINK_THRESHOLD = 0.865
+    self._FACE_THRESHOLD = 0.7  # 面部检测阈值
+    self._EYE_THRESHOLD = 0.65   # 眼睛检测阈值
+    self._SG_THRESHOLD = 0.9     # 太阳镜检测阈值
+    self._BLINK_THRESHOLD = 0.865 # 眨眼检测阈值
 
     self._EE_THRESH11 = 0.25
     self._EE_THRESH12 = 7.5
@@ -47,32 +47,32 @@ class DRIVER_MONITOR_SETTINGS:
     self._POSE_YAW_THRESHOLD = 0.4020
     self._POSE_YAW_THRESHOLD_SLACK = 0.5042
     self._POSE_YAW_THRESHOLD_STRICT = self._POSE_YAW_THRESHOLD
-    self._PITCH_NATURAL_OFFSET = 0.029 # initial value before offset is learned
+    self._PITCH_NATURAL_OFFSET = 0.029 # 初始值，偏移量学习之前
     self._PITCH_NATURAL_THRESHOLD = 0.449
-    self._YAW_NATURAL_OFFSET = 0.097 # initial value before offset is learned
+    self._YAW_NATURAL_OFFSET = 0.097 # 初始值，偏移量学习之前
     self._PITCH_MAX_OFFSET = 0.124
     self._PITCH_MIN_OFFSET = -0.0881
     self._YAW_MAX_OFFSET = 0.289
     self._YAW_MIN_OFFSET = -0.0246
 
     self._POSESTD_THRESHOLD = 0.3
-    self._HI_STD_FALLBACK_TIME = int(10  / self._DT_DMON)  # fall back to wheel touch if model is uncertain for 10s
+    self._HI_STD_FALLBACK_TIME = int(10  / self._DT_DMON)  # 如果模型不确定，10秒后回退到触摸轮
     self._DISTRACTED_FILTER_TS = 0.25  # 0.6Hz
     self._ALWAYS_ON_ALERT_MIN_SPEED = 7
 
     self._POSE_CALIB_MIN_SPEED = 13  # 30 mph
-    self._POSE_OFFSET_MIN_COUNT = int(60 / self._DT_DMON)  # valid data counts before calibration completes, 1min cumulative
-    self._POSE_OFFSET_MAX_COUNT = int(360 / self._DT_DMON)  # stop deweighting new data after 6 min, aka "short term memory"
+    self._POSE_OFFSET_MIN_COUNT = int(60 / self._DT_DMON)  # 校准完成前的有效数据计数，累计1分钟
+    self._POSE_OFFSET_MAX_COUNT = int(360 / self._DT_DMON)  # 在6分钟后停止降低新数据的权重，即“短期记忆”
 
     self._WHEELPOS_CALIB_MIN_SPEED = 11
     self._WHEELPOS_THRESHOLD = 0.5
-    self._WHEELPOS_FILTER_MIN_COUNT = int(15 / self._DT_DMON) # allow 15 seconds to converge wheel side
+    self._WHEELPOS_FILTER_MIN_COUNT = int(15 / self._DT_DMON) # 允许15秒收敛轮侧
 
-    self._RECOVERY_FACTOR_MAX = 5.  # relative to minus step change
-    self._RECOVERY_FACTOR_MIN = 1.25  # relative to minus step change
+    self._RECOVERY_FACTOR_MAX = 5.  # 相对于负步长变化
+    self._RECOVERY_FACTOR_MIN = 1.25  # 相对于负步长变化
 
-    self._MAX_TERMINAL_ALERTS = 3  # not allowed to engage after 3 terminal alerts
-    self._MAX_TERMINAL_DURATION = int(30 / self._DT_DMON)  # not allowed to engage after 30s of terminal alerts
+    self._MAX_TERMINAL_ALERTS = 3  # 在3次终端警报后不允许参与
+    self._MAX_TERMINAL_DURATION = int(30 / self._DT_DMON)  # 在30秒的终端警报后不允许参与
 
 class DistractedType:
   NOT_DISTRACTED = 0
@@ -101,14 +101,14 @@ class DriverBlink:
     self.right = 0.
 
 
-# model output refers to center of undistorted+leveled image
-EFL = 598.0 # focal length in K
-cam = DEVICE_CAMERAS[("tici", "ar0231")] # corrected image has same size as raw
-W, H = (cam.dcam.width, cam.dcam.height)  # corrected image has same size as raw
+# 模型输出指的是未失真且水平的图像中心
+EFL = 598.0 # 焦距
+cam = DEVICE_CAMERAS[("tici", "ar0231")] # 校正后的图像与原始图像大小相同
+W, H = (cam.dcam.width, cam.dcam.height)  # 校正后的图像与原始图像大小相同
 
 def face_orientation_from_net(angles_desc, pos_desc, rpy_calib):
-  # the output of these angles are in device frame
-  # so from driver's perspective, pitch is up and yaw is right
+  # 这些角度的输出在设备框架中
+  # 从驾驶员的角度来看，俯仰是向上，偏航是向右
 
   pitch_net, yaw_net, roll_net = angles_desc
 
@@ -119,7 +119,7 @@ def face_orientation_from_net(angles_desc, pos_desc, rpy_calib):
   pitch = pitch_net + pitch_focal_angle
   yaw = -yaw_net + yaw_focal_angle
 
-  # no calib for roll
+  # 不对滚动进行校准
   pitch -= rpy_calib[1]
   yaw -= rpy_calib[2]
   return roll_net, pitch, yaw
@@ -129,10 +129,10 @@ class DriverMonitoring:
   def __init__(self, rhd_saved=False, settings=None, always_on=False, hands_on_wheel_monitoring=False):
     if settings is None:
       settings = DRIVER_MONITOR_SETTINGS()
-    # init policy settings
+    # 初始化策略设置
     self.settings = settings
 
-    # init driver status
+    # 初始化驾驶员状态
     self.wheelpos_learner = RunningStatFilter()
     self.pose = DriverPose(self.settings._POSE_OFFSET_MAX_COUNT)
     self.blink = DriverBlink()
@@ -149,7 +149,8 @@ class DriverMonitoring:
     self.driver_distraction_filter = FirstOrderFilter(0., self.settings._DISTRACTED_FILTER_TS, self.settings._DT_DMON)
     self.wheel_on_right = False
     self.wheel_on_right_last = None
-    self.wheel_on_right_default = rhd_saved
+    # self.wheel_on_right_default = rhd_saved
+    self.wheel_on_right_default = False
     self.face_detected = False
     self.terminal_alert_cnt = 0
     self.terminal_time = 0
@@ -181,12 +182,12 @@ class DriverMonitoring:
         self.step_change = self.settings._DT_DMON / self.settings._DISTRACTED_TIME
       else:
         self.step_change = 0.
-      return  # no exploit after orange alert
+      return  # 在橙色警报后不进行利用
     elif self.awareness <= 0.:
       return
 
     if active_monitoring:
-      # when falling back from passive mode to active mode, reset awareness to avoid false alert
+      # 当从被动模式回退到主动模式时，重置意识以避免错误警报
       if not self.active_monitoring_mode:
         self.awareness_passive = self.awareness
         self.awareness = self.awareness_active
@@ -206,7 +207,7 @@ class DriverMonitoring:
       self.active_monitoring_mode = False
 
   def _set_policy(self, model_data, car_speed):
-    bp = model_data.meta.disengagePredictions.brakeDisengageProbs[0] # brake disengage prob in next 2s
+    bp = model_data.meta.disengagePredictions.brakeDisengageProbs[0] # 刹车解除概率在接下来的2秒内
     k1 = max(-0.00156*((car_speed-16)**2)+0.6, 0.2)
     bp_normal = max(min(bp / k1, 0.5),0)
     self.pose.cfactor_pitch = interp(bp_normal, [0, 0.5],
@@ -227,7 +228,7 @@ class DriverMonitoring:
                                                        self.settings._PITCH_MIN_OFFSET), self.settings._PITCH_MAX_OFFSET)
       yaw_error = self.pose.yaw - min(max(self.pose.yaw_offseter.filtered_stat.mean(),
                                                     self.settings._YAW_MIN_OFFSET), self.settings._YAW_MAX_OFFSET)
-    pitch_error = 0 if pitch_error > 0 else abs(pitch_error) # no positive pitch limit
+    pitch_error = 0 if pitch_error > 0 else abs(pitch_error) # 没有正的俯仰限制
     yaw_error = abs(yaw_error)
     if pitch_error > (self.settings._POSE_PITCH_THRESHOLD*self.pose.cfactor_pitch if self.pose.calibrated else self.settings._PITCH_NATURAL_THRESHOLD) or \
        yaw_error > self.settings._POSE_YAW_THRESHOLD*self.pose.cfactor_yaw:
@@ -248,15 +249,15 @@ class DriverMonitoring:
 
   def _update_states(self, driver_state, cal_rpy, car_speed, op_engaged):
     rhd_pred = driver_state.wheelOnRightProb
-    # calibrates only when there's movement and either face detected
+    # 仅在有运动和检测到面部时进行校准
     if car_speed > self.settings._WHEELPOS_CALIB_MIN_SPEED and (driver_state.leftDriverData.faceProb > self.settings._FACE_THRESHOLD or
                                           driver_state.rightDriverData.faceProb > self.settings._FACE_THRESHOLD):
       self.wheelpos_learner.push_and_update(rhd_pred)
     if self.wheelpos_learner.filtered_stat.n > self.settings._WHEELPOS_FILTER_MIN_COUNT:
       self.wheel_on_right = self.wheelpos_learner.filtered_stat.M > self.settings._WHEELPOS_THRESHOLD
     else:
-      self.wheel_on_right = self.wheel_on_right_default # use default/saved if calibration is unfinished
-    # make sure no switching when engaged
+      self.wheel_on_right = self.wheel_on_right_default # 如果校准未完成，则使用默认/保存值
+    # 确保在参与时不切换
     if op_engaged and self.wheel_on_right_last is not None and self.wheel_on_right_last != self.wheel_on_right:
       self.wheel_on_right = self.wheel_on_right_last
     driver_data = driver_state.rightDriverData if self.wheel_on_right else driver_state.leftDriverData
@@ -287,8 +288,8 @@ class DriverMonitoring:
                               and driver_data.faceProb > self.settings._FACE_THRESHOLD and self.pose.low_std
     self.driver_distraction_filter.update(self.driver_distracted)
 
-    # update offseter
-    # only update when driver is actively driving the car above a certain speed
+    # 更新偏移量
+    # 仅在驾驶员以一定速度主动驾驶汽车时更新
     if self.face_detected and car_speed > self.settings._POSE_CALIB_MIN_SPEED and self.pose.low_std and (not op_engaged or not self.driver_distracted):
       self.pose.pitch_offseter.push_and_update(self.pose.pitch)
       self.pose.yaw_offseter.push_and_update(self.pose.yaw)
@@ -309,7 +310,7 @@ class DriverMonitoring:
 
   def _update_events(self, driver_engaged, op_engaged, standstill, wrong_gear, car_speed, steering_wheel_engaged):
     self._reset_events()
-    # Block engaging after max number of distrations or when alert active
+    # 在达到最大分心次数或警报激活后阻止参与
     if self.terminal_alert_cnt >= self.settings._MAX_TERMINAL_ALERTS or \
        self.terminal_time >= self.settings._MAX_TERMINAL_DURATION or \
        self.always_on and self.awareness <= self.threshold_prompt:
@@ -317,13 +318,13 @@ class DriverMonitoring:
 
     always_on_valid = self.always_on and not wrong_gear
 
-    # Update events and state from hands on wheel monitoring status
+    # 从手握方向盘监控状态更新事件和状态
     self.hands_on_wheel_status.update(self.current_events, steering_wheel_engaged, op_engaged, car_speed, always_on_valid, self.hands_on_wheel_monitoring)
 
     if (driver_engaged and self.awareness > 0 and not self.active_monitoring_mode) or \
        (not always_on_valid and not op_engaged) or \
        (always_on_valid and not op_engaged and self.awareness <= 0):
-      # always reset on disengage with normal mode; disengage resets only on red if always on
+      # 在正常模式下始终在脱离时重置；在红色警报下脱离时仅重置
       self._reset_awareness()
       return
 
@@ -334,12 +335,12 @@ class DriverMonitoring:
       if driver_engaged:
         self._reset_awareness()
         return
-      # only restore awareness when paying attention and alert is not red
+      # 仅在注意力集中且警报不是红色时恢复意识
       self.awareness = min(self.awareness + ((self.settings._RECOVERY_FACTOR_MAX-self.settings._RECOVERY_FACTOR_MIN)*
                                              (1.-self.awareness)+self.settings._RECOVERY_FACTOR_MIN)*self.step_change, 1.)
       if self.awareness == 1.:
         self.awareness_passive = min(self.awareness_passive + self.step_change, 1.)
-      # don't display alert banner when awareness is recovering and has cleared orange
+      # 当意识恢复并且已清除橙色时，不显示警报横幅
       if self.awareness > self.threshold_prompt:
         return
 
@@ -353,23 +354,23 @@ class DriverMonitoring:
     maybe_distracted = self.hi_stds > self.settings._HI_STD_FALLBACK_TIME or not self.face_detected
 
     if certainly_distracted or maybe_distracted:
-      # should always be counting if distracted unless at standstill (lowspeed for always-on) and reaching orange
-      # also will not be reaching 0 if DM is active when not engaged
+      # 如果分心，除非在静止状态（始终开启的低速）并且达到橙色
+      # 如果在未参与时DM处于活动状态，也不会达到0
       if not (standstill_exemption or always_on_red_exemption or always_on_lowspeed_exemption):
         self.awareness = max(self.awareness - self.step_change, -0.1)
 
     alert = None
     if self.awareness <= 0.:
-      # terminal red alert: disengagement required
+      # 终端红色警报：需要脱离
       alert = EventName.driverDistracted if self.active_monitoring_mode else EventName.driverUnresponsive
       self.terminal_time += 1
       if awareness_prev > 0.:
         self.terminal_alert_cnt += 1
     elif self.awareness <= self.threshold_prompt:
-      # prompt orange alert
+      # 提示橙色警报
       alert = EventName.promptDriverDistracted if self.active_monitoring_mode else EventName.promptDriverUnresponsive
     elif self.awareness <= self.threshold_pre:
-      # pre green alert
+      # 预警绿色警报
       alert = EventName.preDriverDistracted if self.active_monitoring_mode else EventName.preDriverUnresponsive
 
     if alert is not None:
@@ -377,7 +378,7 @@ class DriverMonitoring:
 
 
   def get_state_packet(self, valid=True):
-    # build driverMonitoringState packet
+    # 构建 driverMonitoringState 数据包
     dat = messaging.new_message('driverMonitoringState', valid=valid)
     dat.driverMonitoringState = {
       "events": self.current_events.to_msg(),
@@ -407,13 +408,13 @@ class DriverMonitoring:
     return dat
 
   def run_step(self, sm):
-    # Set strictness
+    # 设置严格性
     self._set_policy(
       model_data=sm['modelV2'],
       car_speed=sm['carState'].vEgo
     )
 
-    # Parse data from dmonitoringmodeld
+    # 从 dmonitoringmodeld 解析数据
     self._update_states(
       driver_state=sm['driverStateV2'],
       cal_rpy=sm['liveCalibration'].rpyCalib,
@@ -421,7 +422,7 @@ class DriverMonitoring:
       op_engaged=sm['controlsState'].enabled
     )
 
-    # Update distraction events
+    # 更新分心事件
     self._update_events(
       driver_engaged=sm['carState'].steeringPressed or sm['carState'].gasPressed,
       op_engaged=sm['controlsState'].enabled,

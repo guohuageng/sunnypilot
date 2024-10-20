@@ -1,15 +1,15 @@
-# driver monitoring (DM)
+# 驾驶员监控 (DM)
 
-Uploading driver-facing camera footage is opt-in, but it is encouraged to opt-in to improve the DM model. You can always change your preference using the "Record and Upload Driver Camera" toggle.
+上传驾驶员面向摄像头的录像是自愿的，但建议您选择此选项以改善DM模型。您可以随时通过“记录并上传驾驶员摄像头”开关更改您的偏好设置。
 
-## Troubleshooting
+## 故障排除
 
-Before creating a bug report, go through these troubleshooting steps.
+在创建错误报告之前，请按照以下故障排除步骤操作。
 
-* Ensure the driver-facing camera has a good view of the driver in normal driving positions.
- * This can be checked in Settings -> Device -> Preview Driver Camera (when car is off).
-* If the camera can't see the driver, the device should be re-mounted.
+* 确保驾驶员面向摄像头在正常驾驶位置下能够清晰地看到驾驶员。
+ * 这可以在设置 -> 设备 -> 预览驾驶员摄像头（当汽车关闭时）中检查。
+* 如果摄像头无法看到驾驶员，则应重新安装设备。
 
-## Bug report
+## 错误报告
 
-In order for us to look into DM bug reports, we'll need the driver-facing camera footage. If you don't normally have this enabled, simply enable the toggle for a single drive. Also ensure the "Upload Raw Logs" toggle is enabled before going for a drive.
+为了让我们查看DM错误报告，我们需要驾驶员面向摄像头的录像。如果您通常没有启用此功能，只需在单次驾驶时启用开关。还请确保在驾驶前启用“上传原始日志”开关。
