@@ -149,8 +149,7 @@ class DriverMonitoring:
     self.driver_distraction_filter = FirstOrderFilter(0., self.settings._DISTRACTED_FILTER_TS, self.settings._DT_DMON)
     self.wheel_on_right = False
     self.wheel_on_right_last = None
-    # self.wheel_on_right_default = rhd_saved
-    self.wheel_on_right_default = False
+    self.wheel_on_right_default = rhd_saved
     self.face_detected = False
     self.terminal_alert_cnt = 0
     self.terminal_time = 0
